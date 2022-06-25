@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A discord bot how keeps track of kick history in guild.",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elias Ruben Wahl",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "typescript": "^4.7.4"
+  }
+}
